@@ -1,0 +1,9 @@
+Source Code untuk logo edit di web SI Kantor MI
+
+source edit Profie Sekolah : <a href="<?= base_url('profile/' . $profile['id'] . '/edit') ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+source edit Data Guru :  <a href="<?= base_url('guru/' . $guru['id'] . '/edit') ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+source edit Data Siswa : <a href="<?= base_url('siswa/' . $siswa['id'] . '/edit') ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+source edit Kegiatan : <a href="<?= base_url('kegiatan/' . $row->id . '/edit') ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+source edit Arsip Data : <a href="<?= base_url('arsip/' . $arsip['id'] . '/edit') ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+source edit Kontak Kami : <a href="<?= base_url('kontak/' . $kontak['id'] . '/edit') ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+source edit Users : <a href="<?= base_url('user/' . $user->username . '/edit') ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
